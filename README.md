@@ -1,4 +1,4 @@
-# Exercício Estágio-BackEnd
+# Prova prática - Estágio em Back-End
 
 # Exercício 1 ao Exercício 12
 
@@ -6,7 +6,7 @@
 - Trocar a source do script para o nome do arquivo do exercício que quer checar 
   Ex: <script src='e1.js'></script> para testar o exercício 1.
 
-# Desafio BackEnd
+# Desafio Back-End
 
 1 - Instalar Express.js - Framework web pra Node.js.
 - Dentro do terminal na pasta contendo o arquivo index.js executar: npm install express
@@ -21,6 +21,8 @@
 - Dentro do terminal executar o comando: node index.js
 
 5 - Utilizar o arquivo routes.http para testar as requests de cada routa. 
--  Clicar em "send request" acima de cada método(POST, GET, DELETE) para receber o resultado. 
+-  Clicar em "send request" acima de cada método(POST, GET, DELETE) para receber o resultado.
+
+
 
 
