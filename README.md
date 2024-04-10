@@ -2,8 +2,11 @@
 
 # Exercício 1 ao Exercício 12
 
-- Executar o arquivo index.html e verificar os resultados dos exercícios no console.
-- Trocar a source do script para o nome do arquivo do exercício que quer checar 
+1 - Os exercícios foram colocados em uma pasta específica visando uma melhor navegação na raiz do projeto
+
+2 - Executar o arquivo index.html e verificar os resultados dos exercícios no console.
+
+3 - Trocar a source do script para o nome do arquivo do exercício que quer checar 
   Ex: <script src='e1.js'></script> para testar o exercício 1.
 
 # Desafio Back-End
