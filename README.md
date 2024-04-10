@@ -9,13 +9,13 @@
 # Desafio BackEnd
 
 1 - Instalar Express.js - Framework web pra Node.js.
-- Dentro do terminal na posta contendo o arquivo index.js executar: npm install express
+- Dentro do terminal na pasta contendo o arquivo index.js executar: npm install express
 
 2 - Instalar Sequelize, uma biblioteca ORM para Node.js que suporta vários bancos de dados relacionais.
-- Dentro do terminal na posta contendo o arquivo index.js executar: npm install sequelize 
+- Dentro do terminal na pasta contendo o arquivo index.js executar: npm install sequelize 
 
 3 - Instalar sqlite3, um driver para SQLite, necessário para se comunicar com o banco de dados.
-- Dentro do terminal na posta contendo o arquivo index.js executar: npm install sqlite3
+- Dentro do terminal na pasta contendo o arquivo index.js executar: npm install sqlite3
 
 4 - Para inicializar um servidor local na porta 3000 para testar o funcionamento da API:
 - Dentro do terminal executar o comando: node index.js
