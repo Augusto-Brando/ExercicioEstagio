@@ -3,22 +3,22 @@ POST http://localhost:3000/posts
 Content-Type: application/json
 
 {
-  "title": "Novo Post",
-  "content": "Conteúdo do novo post"
+  "title": "Nova publicação",
+  "content": "Conteúdo da nova publicação"
 }
 
 ### Obter todos os posts
 GET http://localhost:3000/posts
 
 ### Apagar um post
-DELETE http://localhost:3000/posts/8
+DELETE http://localhost:3000/posts/id
 
 ### Adicionar um comentário a um post
 POST http://localhost:3000/posts/13/comments
 Content-Type: application/json
 
 {
-  "content": "Teste adicionar comentario no id 13"
+  "content": "Adicionar comentário"
 }
 
 ### Apagar um comentário de um post

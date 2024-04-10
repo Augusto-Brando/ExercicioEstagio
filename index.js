@@ -106,7 +106,7 @@ app.delete('/posts/:postId/comments/:commentId', async (req, res) => {
 (async () => {
   try {
     await sequelize.sync();
-    console.log('Conexão com o banco de dados estabelecida com sucesso.');
+    console.log('Conexão com o banco de dados feita com sucesso.');
     app.listen(3000, () => {
       console.log('Servidor iniciado em http://localhost:3000');
     });
