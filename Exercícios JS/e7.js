@@ -5,12 +5,12 @@ const pessoas = [
     {id: 4, nome: 'gabriel', sobrenome: 'pinheiro', idade: 21}
 ];
 
-// Função para formatar o nome com a primeira letra maiúscula
+// Primeira letra maiuscula
 function formatarNome(nome) {
     return nome.charAt(0).toUpperCase() + nome.slice(1);
 }
 
-// Iterar sobre o array de pessoas e imprimir a mensagem de saudação
+// Formatar os dados no array e exibir a mensagem de saudação
 pessoas.forEach(pessoa => {
     const nomeCompleto = `${formatarNome(pessoa.nome)} ${formatarNome(pessoa.sobrenome)}`;
     console.log(`Olá, ${nomeCompleto}!`);

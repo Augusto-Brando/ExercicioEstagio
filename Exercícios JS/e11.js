@@ -5,7 +5,7 @@ const pessoas4 = [
     {id: 4, nome: 'gabriel', sobrenome: 'pinheiro', idade: 21}
 ];
 
-// Função de comparação para ordenar o array
+// Ordenar os arrays
 function compararPessoas(a, b) {
     if (a.idade === b.idade) {
         return b.id - a.id;
@@ -14,7 +14,7 @@ function compararPessoas(a, b) {
     }
 }
 
-// Ordenar o array de pessoas de forma decrescente por idade e, em caso de empate, pelo ID
+// Ordenar de forma decrescente
 pessoas4.sort(compararPessoas);
 
 // Imprimir o array ordenado

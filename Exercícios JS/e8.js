@@ -5,8 +5,8 @@ const pessoas1 = [
     {id: 4, nome: 'gabriel', sobrenome: 'pinheiro', idade: 21}
 ];
 
-// Usando reduce para calcular a soma das idades
-const somaIdades = pessoas1.reduce((soma, pessoa) => soma + pessoa.idade, 0);
+// Reduce para realizar a soma
+const somaIdades = pessoas1.reduce((soma, pessoa) => soma + pessoa.idade, idadeInicial = 0);
 
 console.log("A soma das idades é:", somaIdades);
 

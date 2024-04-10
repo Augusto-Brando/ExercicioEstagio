@@ -15,6 +15,6 @@ async function buscarEndereco(cep) {
     }
 }
 
-// Substitua 'seu_cep' pelo seu CEP real
-const seuCep = '36016360';
+// seuCep = Seu cep real
+const seuCep = '';
 buscarEndereco(seuCep);
