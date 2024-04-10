@@ -16,5 +16,4 @@ const dicionario = {'1': 'i', '3': 'e', '4': 'a', '5': 's'};
 const fraseOriginal = 'T35t3 d3 35t4g1o';
 
 const fraseModificada = substituirNumeros(fraseOriginal, dicionario);
-
 console.log(fraseModificada); 

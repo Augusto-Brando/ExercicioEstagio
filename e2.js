@@ -1,7 +1,6 @@
-function aplicarFuncao(funcao, string1, string2) {
-    const resultadoString1 = funcao(string1);
-    const resultadoString2 = funcao(string2);
-
+function aplicarFuncao(funcao, string3, string4) {
+    const resultadoString1 = funcao(string3);
+    const resultadoString2 = funcao(string4);
     console.log("Resultado da aplicação da função na primeira string:", resultadoString1);
     console.log("Resultado da aplicação da função na segunda string:", resultadoString2);
 }
@@ -11,7 +10,6 @@ function converterMaiuscula(string) {
     return string.toUpperCase();
 }
 
-const string1 = "Olá";
-const string2 = "Mundo";
-
-console.log(aplicarFuncao(converterMaiuscula, string1, string2));
+const string3 = "Olá";
+const string4 = "Mundo";
+console.log(aplicarFuncao(converterMaiuscula, string3, string4));

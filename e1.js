@@ -12,5 +12,4 @@ function maiorComprimento(string1, string2) {
 // Exemplo de uso:
 const string1 = "Olá, tudo bem?";
 const string2 = "Olá";
-
 console.log(maiorComprimento(string1, string2));
