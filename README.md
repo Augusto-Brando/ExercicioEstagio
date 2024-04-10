@@ -20,4 +20,7 @@
 4 - Para inicializar um servidor local na porta 3000 para testar o funcionamento da API:
 - Dentro do terminal executar o comando: node index.js
 
+5 - Utilizar o arquivo routes.http para testar as requests de cada routa. 
+-  Clicar em "send request" acima de cada método(POST, GET, DELETE) para receber o resultado. 
+
 

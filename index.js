@@ -1,17 +1,17 @@
 const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 
-// Inicialização do Express
+// Iniciando Express
 const app = express();
 app.use(express.json());
 
-// Conexão com o banco de dados SQLite
+// Conexão com o banco de dados
 const sequelize = new Sequelize({
   dialect: 'sqlite',
   storage: 'database.sqlite'
 });
 
-// Definição do modelo de Post
+// Formato do post
 const Post = sequelize.define('Post', {
   title: {
     type: DataTypes.STRING,
@@ -23,7 +23,7 @@ const Post = sequelize.define('Post', {
   }
 });
 
-// Definição do modelo de Comment
+// Formato do comentário
 const Comment = sequelize.define('Comment', {
   content: {
     type: DataTypes.TEXT,
@@ -31,13 +31,13 @@ const Comment = sequelize.define('Comment', {
   }
 });
 
-// Relacionamento entre Post e Comment
+// post - comentários
 Post.hasMany(Comment);
 Comment.belongsTo(Post);
 
-// Rotas
+// Método CRUD
 
-// Criar um novo post
+// Criar um post
 app.post('/posts', async (req, res) => {
   try {
     const { title, content } = req.body;
@@ -49,7 +49,7 @@ app.post('/posts', async (req, res) => {
   }
 });
 
-// Obter todos os posts
+// Receber todos os posts
 app.get('/posts', async (req, res) => {
   try {
     const posts = await Post.findAll({ include: Comment });
@@ -72,7 +72,7 @@ app.delete('/posts/:id', async (req, res) => {
   }
 });
 
-// Adicionar um comentário a um post
+// Adicionar um comentário
 app.post('/posts/:postId/comments', async (req, res) => {
   try {
     const postId = req.params.postId;
@@ -89,7 +89,7 @@ app.post('/posts/:postId/comments', async (req, res) => {
   }
 });
 
-// Apagar um comentário de um post
+// Apagar um comentário
 app.delete('/posts/:postId/comments/:commentId', async (req, res) => {
   try {
     const postId = req.params.postId;
@@ -102,7 +102,7 @@ app.delete('/posts/:postId/comments/:commentId', async (req, res) => {
   }
 });
 
-// Sincronização do modelo com o banco de dados e inicialização do servidor
+// Sincronizando banco e iniciando o servidor local na porta 3000
 (async () => {
   try {
     await sequelize.sync();
