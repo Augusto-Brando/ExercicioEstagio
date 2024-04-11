@@ -12,16 +12,18 @@ Exemplo: `<script src='e1.js'></script>` para testar o exercício 1.
 ## Desafio Back-End
 
 1 - Instalar Express.js - Framework web pra Node.js.
-    - npm install express 
+    ```bash
+    npm install express
+    ```
 
 2 - Instalar Sequelize, uma biblioteca ORM para Node.js que suporta vários bancos de dados relacionais.
-    - npm install sequelize 
+    ```npm install sequelize```
 
 3 - Instalar sqlite3, um driver para SQLite, necessário para se comunicar com o banco de dados.
-    - npm install sqlite3
+    ```npm install sqlite3```
 
 4 - Para inicializar um servidor local na porta 3000 para testar o funcionamento da API.
-    - node index.js
+    ```node index.js```
 
 5 - Utilize o arquivo `routes.http` para testar as requests de cada rota. Clique em "Send Request" acima de cada método (POST, GET, DELETE) para receber o resultado.
 
