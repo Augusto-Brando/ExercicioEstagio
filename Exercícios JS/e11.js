@@ -1,4 +1,4 @@
-const pessoas4 = [
+const pessoas = [
     {id: 1, nome: 'juca', sobrenome: 'da silva', idade: 42},
     {id: 2, nome: 'daniel', sobrenome: 'gonçalves', idade: 21},
     {id: 3, nome: 'matheus', sobrenome: 'garcia', idade: 28},
@@ -15,7 +15,7 @@ function compararPessoas(a, b) {
 }
 
 // Ordenar de forma decrescente
-pessoas4.sort(compararPessoas);
+pessoas.sort(compararPessoas);
 
 // Imprimir o array ordenado
-console.log("Array ordenado por idade (decrescente) e ID (desempate):", pessoas4);
+console.log("Array ordenado por idade (decrescente) e ID (desempate):", pessoas);

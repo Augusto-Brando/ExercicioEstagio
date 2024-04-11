@@ -1,4 +1,4 @@
-const pessoas2 = [
+const pessoas = [
     {id: 1, nome: 'juca', sobrenome: 'da silva', idade: 42},
     {id: 2, nome: 'daniel', sobrenome: 'gonçalves', idade: 21},
     {id: 3, nome: 'matheus', sobrenome: 'garcia', idade: 28},
@@ -6,7 +6,7 @@ const pessoas2 = [
 ];
 
 // Filtrar pessoas com menos de 25 anos
-const pessoasMenor25 = pessoas2.filter(pessoa => pessoa.idade < 25);
+const pessoasMenor25 = pessoas.filter(pessoa => pessoa.idade < 25);
 
 // Alguém com menos de 25 anos, imprimir a pessoas
 if (pessoasMenor25.length > 0) {

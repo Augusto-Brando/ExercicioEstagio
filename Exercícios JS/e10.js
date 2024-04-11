@@ -1,4 +1,4 @@
-const pessoas3 = [
+const pessoas = [
     {id: 1, nome: 'juca', sobrenome: 'da silva', idade: 42},
     {id: 2, nome: 'daniel', sobrenome: 'gonçalves', idade: 21},
     {id: 3, nome: 'matheus', sobrenome: 'garcia', idade: 28},
@@ -6,7 +6,7 @@ const pessoas3 = [
 ];
 
 // Filtrar pessoas com menos de 30 anos
-const pessoasMenor30 = pessoas3.filter(pessoa => pessoa.idade < 30);
+const pessoasMenor30 = pessoas.filter(pessoa => pessoa.idade < 30);
 
 // Mostrar os filtrados
 console.log("Pessoas com menos de 30 anos:", pessoasMenor30);

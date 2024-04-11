@@ -3,7 +3,6 @@ function removerDocumento(objeto) {
     return objeto;
 }
 
-// Objeto inicial
 const pessoa = {
     "nome": "Dev",
     "sobrenome": "smart",
@@ -12,7 +11,7 @@ const pessoa = {
     "documento": "123.345.678-90"
 };
 
-// Chamada da função para remover o campo "documento"
+// Remover o documento
 const pessoaAtualizada = removerDocumento(pessoa);
 
 console.log(pessoaAtualizada);
