@@ -12,9 +12,7 @@ Exemplo: `<script src='e1.js'></script>` para testar o exercício 1.
 ## Desafio Back-End
 
 1 - Instalar Express.js - Framework web pra Node.js.
-    ```bash
-    npm install express
-    ```
+    ```npm install express```
 
 2 - Instalar Sequelize, uma biblioteca ORM para Node.js que suporta vários bancos de dados relacionais.
     ```npm install sequelize```
